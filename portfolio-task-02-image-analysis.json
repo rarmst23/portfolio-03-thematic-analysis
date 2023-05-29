@@ -1,0 +1,91 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "https://tropy.org/v1/tropy#",
+    "template": {
+      "@type": "@id"
+    },
+    "photo": {
+      "@id": "https://tropy.org/v1/tropy#photo",
+      "@container": "@list"
+    },
+    "note": {
+      "@id": "https://tropy.org/v1/tropy#note",
+      "@container": "@list"
+    },
+    "selection": {
+      "@id": "https://tropy.org/v1/tropy#selection",
+      "@container": "@list"
+    },
+    "title": "http://purl.org/dc/elements/1.1/title",
+    "date": {
+      "@id": "http://purl.org/dc/elements/1.1/date",
+      "@type": "https://tropy.org/v1/tropy#date"
+    },
+    "description": "http://purl.org/dc/elements/1.1/description",
+    "source": "http://purl.org/dc/elements/1.1/source",
+    "type": "http://purl.org/dc/elements/1.1/type",
+    "identifier": "http://purl.org/dc/elements/1.1/identifier",
+    "creator": "http://purl.org/dc/elements/1.1/creator"
+  },
+  "@graph": [
+    {
+      "@type": "Item",
+      "template": "https://tropy.org/v1/templates/dc",
+      "title": "War Service Homes, North Ryde",
+      "date": "1960",
+      "description": "TITLE: Government - Veteran Affairs - War Service Homes - Dwelling houses, street view North Ryde group CATEGORY: photograph PRINCIPAL CREDIT: Australian News & Information Bureau FORMAT: b&w negative TYPE: cellulose acetate STATUS: preservation material",
+      "source": "https://recordsearch.naa.gov.au/scripts/AutoSearch.asp?O=PSI&Number=9759837",
+      "type": "Photograph",
+      "identifier": "9759837",
+      "creator": "Australian News and Information Bureau",
+      "tag": [
+        "1960-1969",
+        "north ryde",
+        "war service homes"
+      ],
+      "photo": [
+        {
+          "@type": "Photo",
+          "checksum": "62eddbe7eaaac2d842044b7471ed3421",
+          "color": "rgb(168,168,168,1)",
+          "density": null,
+          "filename": "1960_war_service_home.png",
+          "mimetype": "image/jpeg",
+          "orientation": 1,
+          "page": 0,
+          "path": "/Users/robynarmstrong/Library/CloudStorage/OneDrive-Personal/HINQ302/Assessment 3/images/1960_war_service_home.png",
+          "protocol": "file",
+          "size": 33680,
+          "template": "https://tropy.org/v1/templates/photo",
+          "angle": 0,
+          "brightness": 0,
+          "contrast": 0,
+          "height": 337,
+          "hue": 0,
+          "mirror": false,
+          "negative": false,
+          "saturation": 0,
+          "sharpen": 0,
+          "width": 425,
+          "title": "1960_war_service_home",
+          "date": "2023-05-03T08:05:29.837Z",
+          "note": [
+            {
+              "@type": "Note",
+              "text": {
+                "@value": "This phot shows the extent of the building of homes after World War 2. There is no evidence of brick construction with the shortage of building materials. The houses are all tidy with well kept lawns and gardens. The power pole indicates they are serviced with electricity. During the postwar years the character of the district underwent a major change, from rural to suburban residential. The former army vehicle park was subdivided into lots for war service housing, and the New South Wales Housing Commission resumed a substantial quantity of land within the district, subdividing it for housing. Many streets in these subdivisions were named to reflect the area's connection with war service, as many of the earlier streets in the Field of Mars were named for the great English battles. The orchards on the northern side of the suburb were retained from subdivision as a green belt under the County of Cumberland planning scheme, but the growing need for more land for residential, commercial and industrial uses across Sydney was becoming urgent. By 1965 the release of land in North Ryde for industrial purposes began to take place, and by 1968 a large tract was set aside for the establishment of Sydney's third university, Macquarie University.",
+                "@language": "en"
+              },
+              "html": {
+                "@value": "<p>This phot shows the extent of the building of homes after World War 2. There is no evidence of brick construction with the shortage of building materials. The houses are all tidy with well kept lawns and gardens. The power pole indicates they are serviced with electricity.</p><p></p><p>During the postwar years the character of the district underwent a major change, from rural to suburban residential. The former army vehicle park was subdivided into lots for war service housing, and the <a href=\"https://dictionaryofsydney.org/organisation/housing_commission_of_new_south_wales\">New South Wales Housing Commission</a> resumed a substantial quantity of land within the district, subdividing it for housing. Many streets in these subdivisions were named to reflect the area's connection with war service, as many of the earlier streets in the Field of Mars were named for the great English battles.</p><p>The orchards on the northern side of the suburb were retained from subdivision as a green belt under the <a href=\"https://dictionaryofsydney.org/organisation/county_of_cumberland_planning_scheme\">County of Cumberland planning scheme,</a> but the growing need for more land for residential, commercial and industrial uses across Sydney was becoming urgent. By 1965 the release of land in North Ryde for industrial purposes began to take place, and by 1968 a large tract was set aside for the establishment of Sydney's third university, <a href=\"https://dictionaryofsydney.org/organisation/macquarie_university\">Macquarie University.</a></p>",
+                "@language": "en"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "version": "1.13.1"
+}
