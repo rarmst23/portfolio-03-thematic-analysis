@@ -1,0 +1,663 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "https://tropy.org/v1/tropy#",
+    "template": {
+      "@type": "@id"
+    },
+    "photo": {
+      "@id": "https://tropy.org/v1/tropy#photo",
+      "@container": "@list"
+    },
+    "note": {
+      "@id": "https://tropy.org/v1/tropy#note",
+      "@container": "@list"
+    },
+    "selection": {
+      "@id": "https://tropy.org/v1/tropy#selection",
+      "@container": "@list"
+    },
+    "title": "http://purl.org/dc/elements/1.1/title",
+    "creator": "http://purl.org/dc/elements/1.1/creator",
+    "date": {
+      "@id": "http://purl.org/dc/elements/1.1/date",
+      "@type": "https://tropy.org/v1/tropy#date"
+    },
+    "type": "http://purl.org/dc/elements/1.1/type",
+    "identifier": "http://purl.org/dc/elements/1.1/identifier",
+    "rights": "http://purl.org/dc/elements/1.1/rights",
+    "subject": "http://purl.org/dc/elements/1.1/subject",
+    "source": "http://purl.org/dc/elements/1.1/source",
+    "description": "http://purl.org/dc/elements/1.1/description",
+    "format": "http://purl.org/dc/elements/1.1/format"
+  },
+  "@graph": [
+    {
+      "@type": "Item",
+      "template": "https://tropy.org/v1/templates/dc",
+      "title": "1943_army_ordinance",
+      "creator": "John Gardener",
+      "date": "October 1943",
+      "type": "Photograph",
+      "identifier": "P00165.014",
+      "rights": "Public Domain",
+      "subject": "NORTH RYDE, NSW, WWII. VEHICLES AT 3RD AUSTRALIAN ORDNANCE VEHICLE PARK, NORTH RYDE. TAKEN BY JOHN GARDENER WHEN HE WAS CAMP PHOTOGRAPHER, OCTOBER 1943 TO NOVEMBER 1945.",
+      "source": "https://www.awm.gov.au/collection/C40874",
+      "tag": [
+        "World War 11",
+        "Army ordinance",
+        "north ryde",
+        "1940-1949"
+      ],
+      "photo": [
+        {
+          "@type": "Photo",
+          "checksum": "ff4914183426b24470db60a59fa7d7ac",
+          "color": "rgb(8,8,8,1)",
+          "density": null,
+          "filename": "1943_army_ordnance.png",
+          "mimetype": "image/jpeg",
+          "orientation": 1,
+          "page": 0,
+          "path": "/Users/robynarmstrong/Library/CloudStorage/OneDrive-Personal/HINQ302/Assessment 3/images/1943_army_ordnance.png",
+          "protocol": "file",
+          "size": 229069,
+          "template": "https://tropy.org/v1/templates/photo",
+          "angle": 0,
+          "brightness": 0,
+          "contrast": 0,
+          "height": 499,
+          "hue": 0,
+          "mirror": false,
+          "negative": false,
+          "saturation": 0,
+          "sharpen": 0,
+          "width": 640,
+          "date": "2023-05-18T23:54:19.929Z",
+          "title": "1943_army_ordnance"
+        }
+      ]
+    },
+    {
+      "@type": "Item",
+      "template": "https://tropy.org/v1/templates/generic",
+      "title": "1956_opening_psychiatric_hospital",
+      "photo": [
+        {
+          "@type": "Photo",
+          "checksum": "2914e084f470112856eb6c5e21541ec9",
+          "color": "rgb(168,168,168,1)",
+          "density": null,
+          "filename": "1956_opening_psychiatric_hospital.png",
+          "mimetype": "image/jpeg",
+          "orientation": 1,
+          "page": 0,
+          "path": "/Users/robynarmstrong/Library/CloudStorage/OneDrive-Personal/HINQ302/Assessment 3/images/1956_opening_psychiatric_hospital.png",
+          "protocol": "file",
+          "size": 93431,
+          "template": "https://tropy.org/v1/templates/photo",
+          "angle": 0,
+          "brightness": 0,
+          "contrast": 0,
+          "height": 1050,
+          "hue": 0,
+          "mirror": false,
+          "negative": false,
+          "saturation": 0,
+          "sharpen": 0,
+          "width": 1400,
+          "title": "1956_opening_psychiatric_hospital",
+          "date": "2023-05-03T08:05:27.506Z",
+          "description": "Handmade Software, Inc. Image Alchemy v1.8\n"
+        }
+      ]
+    },
+    {
+      "@type": "Item",
+      "template": "https://tropy.org/v1/templates/dc",
+      "date": "1969",
+      "source": "https://archives.cityofsydney.nsw.gov.au/nodes/view/1865292?keywords=&type=all&lsk=be25cca78b5061cbe4fa81f45dd9300a",
+      "format": "Photograph - slide",
+      "creator": "John Ward",
+      "identifier": "A-01112400",
+      "type": "Photograph",
+      "subject": "Series John Ward Transport Collection - Buses",
+      "description": "DGT Albion SPCX19W 2051 with a body built by Clyde in 1948 on Route 286 Wynyard turning from Cox? Road into Blenheim Road, North Ryde.",
+      "title": "Blenheim Road, North Ryde",
+      "rights": "When using this image please acknowledge the photographer, and that it is provided courtesy of the City of Sydney Archives",
+      "tag": [
+        "1960-1969",
+        "double decker bus",
+        "north ryde",
+        "blenheim road",
+        "transport"
+      ],
+      "photo": [
+        {
+          "@type": "Photo",
+          "checksum": "fb2f5d6482997c4f062e33fb54bc04bd",
+          "color": "rgb(88,152,216,1)",
+          "density": null,
+          "filename": "1969_290_bus_blenheim_road.png",
+          "mimetype": "image/jpeg",
+          "orientation": 1,
+          "page": 0,
+          "path": "/Users/robynarmstrong/Library/CloudStorage/OneDrive-Personal/HINQ302/Assessment 3/images/1969_290_bus_blenheim_road.png",
+          "protocol": "file",
+          "size": 194414,
+          "template": "https://tropy.org/v1/templates/photo",
+          "angle": 0,
+          "brightness": 0,
+          "contrast": 0,
+          "height": 673,
+          "hue": 0,
+          "mirror": false,
+          "negative": false,
+          "saturation": 0,
+          "sharpen": 0,
+          "width": 1000,
+          "title": "1969_290_bus_blenheim_road",
+          "date": 1502293124000,
+          "note": [
+            {
+              "@type": "Note",
+              "text": {
+                "@value": "Observe - Reflect - Question This photograph shows the services available in a growing suburb - bus service, service station and small supermarket. The green double decker bus illustrates the importance of public transport to the city. (What is the context of the image?) When and where was the image taken? (how can you tell)  This image was taken in 1969 as part of a transport collection by John Ward. The image was taken on the corner of Blenheim and Coxs Roads at North Ryde. Are there details that suggest the time period this images relates to? (people, objects, activities, words, signs)  Details that suggest the time period are: the green double decker bus the advertising sigh for Vincent’s headache powders the Foodland store on the corner that has been replaced by a liquor store the garbage bin the stle of car Why was the photo taken? What was its purpose? The photo was taken as part of a transport collection about types of buses and their routes. What objects or physical features are in the image? (I see ) (Central focal item) How do they relate to each other? (main subject, minor subjects, explain image composition) The major object is the double decker bus with the location showing its route. The location can be identified by the corner supermarket and the service station in the background. What was happening during the time period this image represents? Various transport options had been considered previously for North Ryde - railway from St Leonards, tram and bus. Once Epping Road was officially opened in 1940 a  Government bus service commenced the next day. It initally went from Epping to Wynyard along Epping Road (Redding, p. 44,). The service was expanded to include Coxs and Blenheim Road before entering Epping Road. The SMH in 1940 noted that ‘it would open up a beautiful area, which was eminently suitable for residential development’ (SMH 5 Feb 1940, p. 11). It was the culmination of years of agitation by people of the district for access to the city. What meaning do you think the photographer was aiming to convey? The photographer was trying to record different types of buses in their context for historical purposes. (What insights does this image provide on the past that we would not have without it?) What insights does this image provide about the past that we might not learn anywhere else? The image portrays ontinutity and change. The image shows a type of bus transport that does not now exist in context. It also portrays continuity because the bus route exists today. It also shows examples of the built environment that have changed use. What questions does this image raise about the past? What is the context of the image?) When and where was the image taken? (how can you tell)  Are there details that suggest the time period this images relates to? (people, objects, activities, words, signs)  Why was the photo taken? What was its purpose? What objects or physical features are in the image? (I see ) (Central focal item) How do they relate to each other? (main subject, minor subjects, explain image composition) What was happening during the time period this image represents? What meaning do you think the photographer was aiming to convey? (What insights does this image provide on the past that we would not have without it?) What insights does this image provide about the past that we might not learn anywhere else? What questions does this image raise about the past? ",
+                "@language": "en"
+              },
+              "html": {
+                "@value": "<p>Observe - Reflect - Question</p><p></p><p>This photograph shows the services available in a growing suburb - bus service, service station and small supermarket. The green double decker bus illustrates the importance of public transport to the city.</p><p></p><p><strong>(What is the context of the image?) When and where was the image taken? (how can you tell)</strong> </p><p>This image was taken in 1969 as part of a transport collection by John Ward. The image was taken on the corner of Blenheim and Coxs Roads at North Ryde.</p><p></p><p><strong>Are there details that suggest the time period this images relates to? (people, objects, activities, words, signs)</strong>&nbsp;</p><p>Details that suggest the time period are:</p><p>the green double decker bus</p><p>the advertising sigh for Vincent’s headache powders</p><p>the Foodland store on the corner that has been replaced by a liquor store</p><p>the garbage bin</p><p>the stle of car</p><p></p><p><strong>Why was the photo taken? What was its purpose?</strong></p><p>The photo was taken as part of a transport collection about types of buses and their routes.</p><p></p><p><strong>What objects or physical features are in the image? (I see ) (Central focal item) How do they relate to each other? (main subject, minor subjects, explain image composition)</strong></p><p>The major object is the double decker bus with the location showing its route. The location can be identified by the corner supermarket and the service station in the background.</p><p></p><p><strong>What was happening during the time period this image represents?</strong></p><p>Various transport options had been considered previously for North Ryde - railway from St Leonards, tram and bus. Once Epping Road was officially opened in 1940 a&nbsp; Government bus service commenced the next day. It initally went from Epping to Wynyard along Epping Road (Redding, p. 44,). The service was expanded to include Coxs and Blenheim Road before entering Epping Road. The SMH in 1940 noted that&nbsp;‘it would open up a beautiful area, which was eminently suitable for residential development’ (SMH 5 Feb 1940, p. 11). It was the culmination of years of agitation by people of the district for access to the city.</p><p></p><p><strong>What meaning do you think the photographer was aiming to convey?</strong></p><p>The photographer was trying to record different types of buses in their context for historical purposes.</p><p></p><p>(What insights does this image provide on the past that we would not have without it?)</p><p></p><p><strong>What insights does this image provide about the past that we might not learn anywhere else?</strong></p><p>The image portrays ontinutity and change. The image shows a type of bus transport that does not now exist in context. It also portrays continuity because the bus route exists today. It also shows examples of the built environment that have changed use.</p><p></p><p><strong>What questions does this image raise about the past?</strong></p><p></p><p>What is the context of the image?) When and where was the image taken? (how can you tell) </p><p></p><p>Are there details that suggest the time period this images relates to? (people, objects, activities, words, signs)&nbsp;</p><p></p><p>Why was the photo taken? What was its purpose?</p><p></p><p>What objects or physical features are in the image? (I see ) (Central focal item) How do they relate to each other? (main subject, minor subjects, explain image composition)</p><p></p><p>What was happening during the time period this image represents?</p><p></p><p>What meaning do you think the photographer was aiming to convey?</p><p></p><p>(What insights does this image provide on the past that we would not have without it?)</p><p></p><p>What insights does this image provide about the past that we might not learn anywhere else?</p><p></p><p>What questions does this image raise about the past?</p><p></p><p></p><p></p><p></p>",
+                "@language": "en"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@type": "Item",
+      "template": "https://tropy.org/v1/templates/dc",
+      "title": "Building Macquarie University",
+      "creator": "Barry Doherty",
+      "date": "23 May, 1966",
+      "type": "Photograph",
+      "rights": "Copyright status: Taken by Australian Photographic Agency for account: Rural Bank 660412. Reproduction for purposes other than private study or research will require permission.",
+      "identifier": "106415",
+      "subject": " Macquarie University (Macquarie Park, N.S.W.) building construction universities Adult Males",
+      "source": "https://search.sl.nsw.gov.au/primo-explore/fulldisplay?docid=ADLIB110067816&context=L&vid=SLNSW&search_scope=MOH&tab=default_tab&lang=en_US",
+      "tag": [
+        "1960-1969",
+        "university",
+        "north ryde"
+      ],
+      "photo": [
+        {
+          "@type": "Photo",
+          "checksum": "1907ac6450108d312aef932a04157d13",
+          "color": "rgb(232,232,232,1)",
+          "density": null,
+          "filename": "macquarie_university.png",
+          "mimetype": "image/jpeg",
+          "orientation": 1,
+          "page": 0,
+          "path": "/Users/robynarmstrong/Library/CloudStorage/OneDrive-Personal/HINQ302/Assessment 3/images/macquarie_university.png",
+          "protocol": "file",
+          "size": 75984,
+          "template": "https://tropy.org/v1/templates/photo",
+          "angle": 0,
+          "brightness": 0,
+          "contrast": 0,
+          "height": 600,
+          "hue": 0,
+          "mirror": false,
+          "negative": false,
+          "saturation": 0,
+          "sharpen": 0,
+          "width": 800,
+          "date": "2023-05-06T06:13:29.409Z",
+          "title": "macquarie_university",
+          "note": [
+            {
+              "@type": "Note",
+              "text": {
+                "@value": "What is the context of the image?) When and where was the image taken? (how can you tell)  This image was taken in 1966 by Barry Doherty. It shows the building of Macquarie University. Are there details that suggest the time period this images relates to? (people, objects, activities, words, signs)  Why was the photo taken? What was its purpose? The image was taken to record progress in building a significant piece of infrastructure. What objects or physical features are in the image? (I see ) (Central focal item) How do they relate to each other? (main subject, minor subjects, explain image composition) The main subject in the image is the man in the foreground pointing to the construction in the background. The image composition shows the importance of the construction. What was happening during the time period this image represents? The univeristy was being built on what was previously green belt zoning under the County of Cumberland Planning Scheme. This zoning was adopted to intended to provide rural open space around uran districts to prevent urban sprawl (Martin pictorial history p. 116). Because of growing population and the demand for land in December 1959 1700 acres of the Marsfield-North Ryde green belt were released for re-zoning (Martin p. 116). The area became a battle ground between local land owners, Ryde Council and the State Planning Authority (Martin, p. 116). In March 1963 a decision was finally made to build a university at North Ryde and when the legislation for the university was passed it was described an ‘a historic land mark’ (Western Herald, 1965, p. 6). In 1964 he State Governement also announced that 939 acres of green belt land surrounding the new university were to be rezoned for residential and industrial use with an intentention there would be interaction between industries and the university (Gov Gazette 10 April 1964 p. 1157, Martin p. 116). The underlying principle behind the development of the university and the surrounding industrial area was based on the concept associated with Stanford University in San Francisco. Stringent planning controls were used to regulate both the industrial uses and physical setting of each development. Industries had to be compatible and have an affinity with the curricular activities of the newly established university. In 1972, the responsibility for determining the criteria was transferred to Ryde Council, which required that industries be 'light industry, based on a scientific process and include facilities for scientific research and development'. At the north-eastern end, the CSIRO established a large facility housing a number of divisions, and Channel Ten built television and recording studios. Soon, housing units and town houses were being erected in the residential areas near the university. In 1981, Macquarie Centre, a major regional shopping centre opened on a 9.4 hectare site adjoining the university. In 1999, Macquarie Park was assigned as a separate suburb in the northern part of North Ryde, removing the university, shopping centre and high-tech industries from the suburb of North Ryde (Dictionary of Sydney) What meaning do you think the photographer was aiming to convey? The importance of the construction of the university. (What insights does this image provide on the past that we would not have without it?) What insights does this image provide about the past that we might not learn anywhere else? What questions does this image raise about the past? ",
+                "@language": "en"
+              },
+              "html": {
+                "@value": "<p><strong>What is the context of the image?) When and where was the image taken? (how can you tell)</strong> </p><p>This image was taken in 1966 by Barry Doherty. It shows the building of Macquarie University.</p><p></p><p><strong>Are there details that suggest the time period this images relates to? (people, objects, activities, words, signs)</strong>&nbsp;</p><p></p><p><strong>Why was the photo taken? What was its purpose?</strong></p><p>The image was taken to record progress in building a significant piece of infrastructure.</p><p></p><p><strong>What objects or physical features are in the image? (I see ) (Central focal item) How do they relate to each other? (main subject, minor subjects, explain image composition)</strong></p><p>The main subject in the image is the man in the foreground pointing to the construction in the background. The image composition shows the importance of the construction.</p><p></p><p><strong>What was happening during the time period this image represents?</strong></p><p>The univeristy was being built on what was previously green belt zoning under the County of Cumberland Planning Scheme. This zoning was adopted to intended to provide rural open space around uran districts to prevent urban sprawl (Martin pictorial history p. 116). Because of growing population and the demand for land in December 1959 1700 acres of the Marsfield-North Ryde green belt were released for re-zoning (Martin p. 116). The area became a battle ground between local land owners, Ryde Council and the State Planning Authority (Martin, p. 116). In March 1963 a decision was finally made to build a university at North Ryde and when the legislation for the university was passed it was described an&nbsp;‘a historic land mark’ (Western Herald, 1965, p. 6). In 1964 he State Governement also announced that 939 acres of green belt land surrounding the new university were to be rezoned for residential and industrial use with an intentention there would be interaction between industries and the university (Gov Gazette 10 April 1964 p. 1157, Martin p. 116).</p><p></p><p>The underlying principle behind the development of the university and the surrounding industrial area was based on the concept associated with Stanford University in San Francisco. Stringent planning controls were used to regulate both the industrial uses and physical setting of each development. Industries had to be compatible and have an affinity with the curricular activities of the newly established university. In 1972, the responsibility for determining the criteria was transferred to Ryde Council, which required that industries be 'light industry, based on a scientific process and include facilities for scientific research and development'. At the north-eastern end, the <a href=\"https://dictionaryofsydney.org/organisation/csiro\">CSIRO</a> established a large facility housing a number of divisions, and <a href=\"https://dictionaryofsydney.org/organisation/channel_ten\">Channel Ten</a> built television and recording studios.</p><p>Soon, housing units and town houses were being erected in the residential areas near the university. In 1981, <a href=\"https://dictionaryofsydney.org/building/macquarie_centre\">Macquarie Centre,</a> a major regional shopping centre opened on a 9.4 hectare site adjoining the university. In 1999, <a href=\"https://dictionaryofsydney.org/place/macquarie_park\">Macquarie Park</a> was assigned as a separate suburb in the northern part of North Ryde, removing the university, shopping centre and high-tech industries from the suburb of North Ryde (Dictionary of Sydney)</p><p></p><p><strong>What meaning do you think the photographer was aiming to convey?</strong></p><p>The importance of the construction of the university.</p><p></p><p>(What insights does this image provide on the past that we would not have without it?)</p><p></p><p><strong>What insights does this image provide about the past that we might not learn anywhere else?</strong></p><p></p><p><strong>What questions does this image raise about the past?</strong></p><p></p>",
+                "@language": "en"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@type": "Item",
+      "template": "https://tropy.org/v1/templates/dc",
+      "type": "Photograph",
+      "source": "https://ryde.spydus.com/cgi-bin/spydus.exe/ENQ/WPAC/BIBENQ?SETLVL=&BRN=42027",
+      "title": "Coxs Road North Ryde ",
+      "date": "1943",
+      "description": "Coxs Road North Ryde, looking towards the School of Arts in 1943, with Barrie Hicks, Marie Hicks, Carol Keegan, Terry Morony and Fred Horton [photograph]1943",
+      "creator": "George Horton ",
+      "identifier": "BRN: 42027",
+      "rights": "This image is provided for research purposes only and must not be reproduced for other purposes without prior permission of the library.",
+      "tag": [
+        "1940-1949",
+        "north ryde",
+        "Coxs Road",
+        "children",
+        "school of arts"
+      ],
+      "photo": [
+        {
+          "@type": "Photo",
+          "checksum": "b88f00e23744390c75e5200f7d885d4c",
+          "color": "rgb(8,8,8,1)",
+          "density": null,
+          "filename": "1943_coxs_road.png",
+          "mimetype": "image/jpeg",
+          "orientation": 1,
+          "page": 0,
+          "path": "/Users/robynarmstrong/Library/CloudStorage/OneDrive-Personal/HINQ302/Assessment 3/images/1943_coxs_road.png",
+          "protocol": "file",
+          "size": 60335,
+          "template": "https://tropy.org/v1/templates/photo",
+          "angle": 0,
+          "brightness": 0,
+          "contrast": 0,
+          "height": 285,
+          "hue": 0,
+          "mirror": false,
+          "negative": false,
+          "saturation": 0,
+          "sharpen": 0,
+          "width": 416,
+          "title": "1943_coxs_road",
+          "date": "2023-05-03T08:05:29.359Z",
+          "note": [
+            {
+              "@type": "Note",
+              "text": {
+                "@value": "Photograph was reproduced on page 27 of \"Then & now photographic book: a 1992 Ryde Bicentenary publication\", published by the Ryde Bicentenary Mementoes Task Force in 1992. What is the context of the image?) When and where was the image taken? (how can you tell)  The image was taken in 1943 by George Horton. A favoured painting subject of the Northwood Group. Are there details that suggest the time period this images relates to? (people, objects, activities, words, signs)  The coca cola sign, the style of the children’s clothes and bikes. There is a lack of any other buildings in the background. Why was the photo taken? What was its purpose? It would suggest that this was a family member recording the local children. What objects or physical features are in the image? (I see ) (Central focal item) How do they relate to each other? (main subject, minor subjects, explain image composition) The main figures are the children who are lined up to pose for the photo. They are photographed against building in the main stree Coxs Road. There is a shop and the School of Arts in the background. Girls are in dresses and boys in shorts - summer? What was happening during the time period this image represents? This image was taken during the period of World War 2. There would have been austerity and shortages of food and building materials.  What meaning do you think the photographer was aiming to convey? The photographer was recording  local children and their activities. (What insights does this image provide on the past that we would not have without it?) What insights does this image provide about the past that we might not learn anywhere else? What questions does this image raise about the past? What life was like for these children - school, recreational activities, did they work on their parent’s farms/orchards, gender roles, their understanding of the war ",
+                "@language": "en"
+              },
+              "html": {
+                "@value": "<p>Photograph was reproduced on page 27 of \"Then &amp; now photographic book: a 1992 Ryde Bicentenary publication\", published by the Ryde Bicentenary Mementoes Task Force in 1992.</p><p></p><p><strong>What is the context of the image?) When and where was the image taken? (how can you tell)</strong> </p><p>The image was taken in 1943 by George Horton. A favoured painting subject of the Northwood Group.</p><p></p><p><strong>Are there details that suggest the time period this images relates to? (people, objects, activities, words, signs)</strong>&nbsp;</p><p>The coca cola sign, the style of the children’s clothes and bikes. There is a lack of any other buildings in the background.</p><p></p><p><strong>Why was the photo taken? What was its purpose?</strong></p><p>It would suggest that this was a family member recording the local children.</p><p></p><p><strong>What objects or physical features are in the image? (I see ) (Central focal item) How do they relate to each other? (main subject, minor subjects, explain image composition)</strong></p><p>The main figures are the children who are lined up to pose for the photo. They are photographed against building in the main stree Coxs Road. There is a shop and the School of Arts in the background. Girls are in dresses and boys in shorts - summer?</p><p></p><p><strong>What was happening during the time period this image represents?</strong></p><p>This image was taken during the period of World War 2. There would have been austerity and shortages of food and building materials.&nbsp;</p><p></p><p><strong>What meaning do you think the photographer was aiming to convey?</strong></p><p>The photographer was recording&nbsp; local children and their activities.</p><p></p><p>(What insights does this image provide on the past that we would not have without it?)</p><p></p><p><strong>What insights does this image provide about the past that we might not learn anywhere else?</strong></p><p></p><p><strong>What questions does this image raise about the past?</strong></p><p>What life was like for these children - school, recreational activities, did they work on their parent’s farms/orchards, gender roles, their understanding of the war</p><p></p><p></p>",
+                "@language": "en"
+              }
+            },
+            {
+              "@type": "Note",
+              "text": {
+                "@value": "This photo proves some insight into clothing and activities of children at this time. It also shows the built environment.",
+                "@language": "en"
+              },
+              "html": {
+                "@value": "<p>This photo proves some insight into clothing and activities of children at this time. It also shows the built environment.</p>",
+                "@language": "en"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@type": "Item",
+      "template": "https://tropy.org/v1/templates/dc",
+      "title": "Fred Horton & Bill Cox on \"Pomona\", North Ryde ",
+      "date": "1945",
+      "description": "Fred Horton & Bill Cox on \"Pomona\", North Ryde in 1945 [photograph]1945",
+      "subject": " Cox family -- Photographs Horton family -- Photographs Pomona (North Ryde, N.S.W.) -- Photographs Orchards -- New South Wales -- North Ryde -- Photographs Farm life -- New South Wales -- North Ryde -- Photographs",
+      "identifier": "BRN: 42013",
+      "type": "Photograph",
+      "source": "City of Ryde Local Studies Collection https://ryde.spydus.com/cgi-bin/spydus.exe/ENQ/WPAC/BIBENQ?SETLVL=&BRN=42013",
+      "creator": "George Horton",
+      "rights": "This image is provided for research purposes only and must not be reproduced for other purposes without prior permission of the library.",
+      "tag": [
+        "1940-1949",
+        "Pomona",
+        "north ryde",
+        "Bill Cox",
+        "hay cutting"
+      ],
+      "photo": [
+        {
+          "@type": "Photo",
+          "checksum": "2343000fbc37e58983ba9dd75e68aecb",
+          "color": "rgb(8,8,8,1)",
+          "density": null,
+          "filename": "1945Horton_cox_pomona.png",
+          "mimetype": "image/jpeg",
+          "orientation": 1,
+          "page": 0,
+          "path": "/Users/robynarmstrong/Library/CloudStorage/OneDrive-Personal/HINQ302/Assessment 3/images/1945Horton_cox_pomona.png",
+          "protocol": "file",
+          "size": 117867,
+          "template": "https://tropy.org/v1/templates/photo",
+          "angle": 0,
+          "brightness": 0,
+          "contrast": 0,
+          "height": 285,
+          "hue": 0,
+          "mirror": false,
+          "negative": false,
+          "saturation": 0,
+          "sharpen": 0,
+          "width": 485,
+          "title": "1945Horton_cox_pomona",
+          "date": "2023-05-03T08:05:29.360Z",
+          "note": [
+            {
+              "@type": "Note",
+              "text": {
+                "@value": "Photograph was reproduced on page 26 of \"Then & now photographic book: a 1992 Ryde Bicentenary publication\", published by the Ryde Bicentenary Mementoes Task Force in 1992.photonegative : Sydney, Ryde Library & Information Services, March 1992. Shows members of two of the well known families in the district. There is some indication of work ethic from the young to the elderly. What is the context of the image?) When and where was the image taken? (how can you tell)  This photo was taken in 1945 by George Horton. Are there details that suggest the time period this images relates to? (people, objects, activities, words, signs)  clothing, agricultural tools Why was the photo taken? What was its purpose? This was a family photo to record everyday activities of cutting hay on the family orchard and vineyard. What objects or physical features are in the image? (I see ) (Central focal item) How do they relate to each other? (main subject, minor subjects, explain image composition) The main subjects are William Cox and Fred Horton. They are posed in an activity of cutting hay. William cCox is holding a scythe while Fred Horton gathers the hay. Buildings in the background could be agricultural sheds. What was happening during the time period this image represents? The North Ryde property was bought in 1869 by brothers Joseph and William Cox and developed it into an orchard and vineyard. Joseph built the residence ‘Pomona’, which was described as a ‘three-story stone building of handsome design…furnished in a style far above the ordinary bush home’ Sydney Mail 1 April 1882 p. 49). William Cox, son of Joseph Cox, was born on ‘Pomona’ in 1870 and lived on the proprty until he died in 1952. Willima Cox liked to entertain was was very involved in community activities. The Northwood group of artisits (Lloyd Rees, Roalnd Wakelin, John and Marie Santry, George Lawrence, John Bucklow) liked to work around North Ryde with ‘Pomona’ a favourite subject. When Cox died in 1952 ‘Pomona ‘ was sold to the Housing Commission for 4000 pounds and the residence was demolished. This marked an end of an era a sign of major commercial and residential expansion that transformed North Ryde in the 1950s and 60s (Martin, p. 110). What meaning do you think the photographer was aiming to convey? (What insights does this image provide on the past that we would not have without it?) What insights does this image provide about the past that we might not learn anywhere else? What questions does this image raise about the past? ",
+                "@language": "en"
+              },
+              "html": {
+                "@value": "<p>Photograph was reproduced on page 26 of \"Then &amp; now photographic book: a 1992 Ryde Bicentenary publication\", published by the Ryde Bicentenary Mementoes Task Force in 1992.photonegative : Sydney, Ryde Library &amp; Information Services, March 1992.</p><p></p><p>Shows members of two of the well known families in the district. There is some indication of work ethic from the young to the elderly.</p><p></p><p><strong>What is the context of the image?) When and where was the image taken? (how can you tell)</strong> </p><p>This photo was taken in 1945 by George Horton.</p><p></p><p><strong>Are there details that suggest the time period this images relates to? (people, objects, activities, words, signs)</strong>&nbsp;</p><p>clothing, agricultural tools</p><p></p><p><strong>Why was the photo taken? What was its purpose?</strong></p><p>This was a family photo to record everyday activities of cutting hay on the family orchard and vineyard.</p><p></p><p><strong>What objects or physical features are in the image? (I see ) (Central focal item) How do they relate to each other? (main subject, minor subjects, explain image composition)</strong></p><p>The main subjects are William Cox and Fred Horton. They are posed in an activity of cutting hay. William cCox is holding a scythe while Fred Horton gathers the hay. Buildings in the background could be agricultural sheds.</p><p></p><p><strong>What was happening during the time period this image represents?</strong></p><p>The North Ryde property was bought in 1869 by brothers Joseph and William Cox and developed it into an orchard and vineyard. Joseph built the residence&nbsp;‘Pomona’, which was described as a&nbsp;‘three-story stone building of handsome design…furnished in a style far above the ordinary bush home’ Sydney Mail 1 April 1882 p. 49). William Cox, son of Joseph Cox, was born on&nbsp;‘Pomona’ in 1870 and lived on the proprty until he died in 1952. Willima Cox liked to entertain was was very involved in community activities. The Northwood group of artisits (Lloyd Rees, Roalnd Wakelin, John and Marie Santry, George Lawrence, John Bucklow) liked to work around North Ryde with&nbsp;‘Pomona’ a favourite subject. When Cox died in 1952&nbsp;‘Pomona&nbsp;‘ was sold to the Housing Commission for 4000 pounds and the residence was demolished. This marked an end of an era a sign of major commercial and residential expansion that transformed North Ryde in the 1950s and 60s (Martin, p. 110).</p><p></p><p>What meaning do you think the photographer was aiming to convey?</p><p></p><p>(What insights does this image provide on the past that we would not have without it?)</p><p></p><p>What insights does this image provide about the past that we might not learn anywhere else?</p><p></p><p>What questions does this image raise about the past?</p><p></p><p></p>",
+                "@language": "en"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@type": "Item",
+      "template": "https://tropy.org/v1/templates/dc",
+      "title": "Horton's shop in Coxs Road, North Ryde around 1938 with Bill Morony, Fred Horton & Ann Horton [photograph]",
+      "description": "Horton's shop in Coxs Road, North Ryde around 1938 with Bill Morony, Fred Horton & Ann Horton [photograph]",
+      "date": "1938",
+      "type": "Photograph",
+      "source": "City of Ryde Local Studies Collection https://ryde.spydus.com/cgi-bin/spydus.exe/ENQ/WPAC/BIBENQ?SETLVL=&BRN=42001",
+      "identifier": "BRN: 42001",
+      "subject": " Horton family -- Photographs Grocers -- New South Wales -- North Ryde -- Photographs Coxs Road (North Ryde, N.S.W.) -- Photographs",
+      "creator": "George Horton",
+      "rights": "This image is provided for research purposes only and must not be reproduced for other purposes without prior permission of the library.",
+      "tag": [
+        "1930-1939",
+        "north ryde",
+        "shop",
+        "Coxs Road"
+      ],
+      "photo": [
+        {
+          "@type": "Photo",
+          "checksum": "3fcd06a6c891e17dc7a5b90b225e0943",
+          "color": "rgb(8,8,8,1)",
+          "density": null,
+          "filename": "1938_hortons_shop_coxs_road.png",
+          "mimetype": "image/jpeg",
+          "orientation": 1,
+          "page": 0,
+          "path": "/Users/robynarmstrong/Library/CloudStorage/OneDrive-Personal/HINQ302/Assessment 3/images/1938_hortons_shop_coxs_road.png",
+          "protocol": "file",
+          "size": 78603,
+          "template": "https://tropy.org/v1/templates/photo",
+          "angle": 0,
+          "brightness": 0,
+          "contrast": 0,
+          "height": 285,
+          "hue": 0,
+          "mirror": false,
+          "negative": false,
+          "saturation": 0,
+          "sharpen": 0,
+          "width": 438,
+          "title": "1938_hortons_shop_coxs_road",
+          "date": "2023-05-03T08:05:29.836Z",
+          "note": [
+            {
+              "@type": "Note",
+              "text": {
+                "@value": "Photograph was reproduced on page 27 of \"Then & now photographic book: a 1992 Ryde Bicentenary publication\", published by the Ryde Bicentenary Mementoes Task Force in 1992.photonegative : Sydney, Ryde Library & Information Services, March 1992. Show a well built sandstone building for the shop indicating an established community. Gender roles with mother doing shopping and looking after the children.",
+                "@language": "en"
+              },
+              "html": {
+                "@value": "<p>Photograph was reproduced on page 27 of \"Then &amp; now photographic book: a 1992 Ryde Bicentenary publication\", published by the Ryde Bicentenary Mementoes Task Force in 1992.photonegative : Sydney, Ryde Library &amp; Information Services, March 1992.</p><p></p><p>Show a well built sandstone building for the shop indicating an established community. Gender roles with mother doing shopping and looking after the children.</p>",
+                "@language": "en"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@type": "Item",
+      "template": "https://tropy.org/v1/templates/dc",
+      "title": "NORTH RYDE, NSW, 22.10.1943 TRIALS WITH FIRST AMPHIBIAN JEEPS AT LANE COVE PARK, SYDNEY,",
+      "date": "1943",
+      "identifier": "P00165.092",
+      "type": "Photograph - black and white",
+      "creator": "John Gardener",
+      "rights": "Copyright expired - item is in Public Domain",
+      "description": "NORTH RYDE, NSW, 22.10.1943 TRIALS WITH FIRST AMPHIBIAN JEEPS AT LANE COVE PARK, SYDNEY, DURING THE INSPECTION OF 3RD AUSTRALIAN ORDNANCE VEHICLE PARK, NORTH RYDE, BY LORD GOWRIE, GOVERNOR-GENERAL OF AUSTRALIA. TAKEN BY JOHN GARDENER, CAMP PHOTOGRAPHER 1943-1945.",
+      "subject": "Conflict Second World War 1939-1945",
+      "source": "Australian War Memorial Collection //www.awm.gov.au/collection/C40949",
+      "tag": [
+        "1940-1949",
+        "north ryde",
+        "World War 2",
+        "military vehicles"
+      ],
+      "photo": [
+        {
+          "@type": "Photo",
+          "checksum": "86c1b6abdd9169790fb788e4539d9b19",
+          "color": "rgb(216,216,200,1)",
+          "density": null,
+          "filename": "1943_ordinance_park.png",
+          "mimetype": "image/jpeg",
+          "orientation": 1,
+          "page": 0,
+          "path": "/Users/robynarmstrong/Library/CloudStorage/OneDrive-Personal/HINQ302/Assessment 3/images/1943_ordinance_park.png",
+          "protocol": "file",
+          "size": 249937,
+          "template": "https://tropy.org/v1/templates/photo",
+          "angle": 0,
+          "brightness": 0,
+          "contrast": 0,
+          "height": 403,
+          "hue": 0,
+          "mirror": false,
+          "negative": false,
+          "saturation": 0,
+          "sharpen": 0,
+          "width": 640,
+          "title": "1943_ordinance_park",
+          "date": "2023-05-03T08:05:27.074Z",
+          "note": [
+            {
+              "@type": "Note",
+              "text": {
+                "@value": "This photo shows how the land was used in North Ryde during World War 2. It also provides an indication of types of military vehicles. The 100 acre block bounded by Wicks, Epping, Blenheim and Coxs roads was mostly vacant or orchard land until World War II. In 1942, the army began to use the Epping Road end for parking tanks and by 1943 the whole block became a substantial heavy vehicle park and transport workshop. Living quarters and parade grounds were built on the eastern side of Blenheim Road. After the army vacated them at the end of the war, the living quarters were used to accommodate migrants for a number of years (Margaret Farlow 2008 State Library of NSW Dictionary of Sydney).",
+                "@language": "en"
+              },
+              "html": {
+                "@value": "<p>This photo shows how the land was used in North Ryde during World War 2. It also provides an indication of types of military vehicles.</p><p></p><p>The 100 acre block bounded by Wicks, Epping, Blenheim and Coxs roads was mostly vacant or orchard land until <a href=\"https://dictionaryofsydney.org/event/world_war_ii\">World War II</a>. In 1942, the army began to use the Epping Road end for parking tanks and by 1943 the whole block became a substantial heavy vehicle park and transport workshop. Living quarters and parade grounds were built on the eastern side of Blenheim Road. After the army vacated them at the end of the war, the living quarters were used to accommodate migrants for a number of years (Margaret Farlow 2008 State Library of NSW Dictionary of Sydney).</p>",
+                "@language": "en"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@type": "Item",
+      "template": "https://tropy.org/v1/templates/dc",
+      "title": "Opening of De Burgh's Bridge, Lane Cove River, 23 February ",
+      "date": "1901",
+      "description": "Opening of De Burgh's Bridge, Lane Cove River, 23 February 1901 [photograph]",
+      "source": "City of Ryde Local Studies Collection https://ryde.spydus.com/cgi-bin/spydus.exe/ENQ/WPAC/BIBENQ?SETLVL=&BRN=39627 ",
+      "subject": " Bridges -- New South Wales -- Lane Cove River -- Photographs De Burgh's Bridge (Lane Cove River, N.S.W.) -- Photographs",
+      "identifier": "BRN: 39627",
+      "type": "Photograph",
+      "creator": "Sydney Mail",
+      "rights": "This image is provided for research purposes only and must not be reproduced for other purposes without prior permission of the library.",
+      "tag": [
+        "1900-1909",
+        "bridge",
+        "north ryde"
+      ],
+      "photo": [
+        {
+          "@type": "Photo",
+          "checksum": "888d434430306164535954387207d253",
+          "color": "rgb(24,24,24,1)",
+          "density": null,
+          "filename": "1901_building_deburghs_bridge.png",
+          "mimetype": "image/jpeg",
+          "orientation": 1,
+          "page": 0,
+          "path": "/Users/robynarmstrong/Library/CloudStorage/OneDrive-Personal/HINQ302/Assessment 3/images/1901_building_deburghs_bridge.png",
+          "protocol": "file",
+          "size": 68225,
+          "template": "https://tropy.org/v1/templates/photo",
+          "angle": 0,
+          "brightness": 0,
+          "contrast": 0,
+          "height": 276,
+          "hue": 0,
+          "mirror": false,
+          "negative": false,
+          "saturation": 0,
+          "sharpen": 0,
+          "width": 400,
+          "title": "1901_building_deburghs_bridge",
+          "date": "2023-05-03T08:05:26.993Z",
+          "note": [
+            {
+              "@type": "Note",
+              "text": {
+                "@value": "Photograph was reproduced as item 2.8 in \"Focus on Ryde: a local studies resource\", published by the Ryde Bicentenary Schools & Youth Task Force in 1992.Photograph was reproduced on page 58 of \"Then & now photographic book: a 1992 Ryde Bicentenary publication\", published by the Ryde Bicentenary Mementoes Task Force in 1992.Photograph was reproduced on p.41 of George Redding's \"A History of North Ryde 1850-1950\", published in 1986 by the North Ryde Public School Ex-Pupils History Group.photonegative : Sydney, Ryde Library & Information Services, 1992. This photo demonstrates the type of bridge building technology. It also shows a need needs access across the river for horse and cart transport for people and goods. What is the context of the image?) When and where was the image taken? (how can you tell)  This image was taken in 1901 by a photographer for the Sydney Mail. The bushland setting and the Lane Cove River. Are there details that suggest the time period this images relates to? (people, objects, activities, words, signs)  The style of clothing of participants, the style of transport. Why was the photo taken? What was its purpose? The photo was taken to recrod what was considered an important event to be reported in an Austrlain magazine publised weekly in Sydney. It was the weekly edition of The Sydney Morning Herald newspaper and ran from 1860 to 1938 . What objects or physical features are in the image? (I see ) (Central focal item) How do they relate to each other? (main subject, minor subjects, explain image composition) The photgrapher has tied to capture the broad sweep of the bridge with participants of the opening in the middle ground and a carrigae in the foreground (possible ready to cross the bridge when it was opened). What was happening during the time period this image represents? Construction of the bridge began in 1899. Until then horse drawn vehicles had to cross the river over a ford of the Lane Cove River. It was designed for horse drawn traffic but carried cars and heavy trucks until 1967 when a new six lane concrete bridge was built nearby. The bridge was opened by Mr EW O’Sullivan by cutting a ribbon ‘with a handsome pair of scissors’ (Sydney Mail, p. 530). It was designed and erected by officilas at the Bridges Branch of the Public Works Department from composite steel and ironbark timber and was considered revolutionary in its time (Marting, p. 46). It provided an important link for the route from Sydeny to Pittwater and Broken Bay via Gladesville and Pymble. What meaning do you think the photographer was aiming to convey? The photographer was trying to capture as much of the scene as possible to illustrate for the readers of the magazine. It was an important event to warrant the notice of a Sydney magazine. (What insights does this image provide on the past that we would not have without it?) What insights does this image provide about the past that we might not learn anywhere else? The bridge was destroyed in a bush fire so this image provides a represenation of a structure that no longer exists.  What questions does this image raise about the past? What technology was available at this time. What difference did this bridge make in the lives of everyday people. What major impact tdid this bridge make for the development of suburbs like North Ryde.",
+                "@language": "en"
+              },
+              "html": {
+                "@value": "<p>Photograph was reproduced as item 2.8 in \"Focus on Ryde: a local studies resource\", published by the Ryde Bicentenary Schools &amp; Youth Task Force in 1992.Photograph was reproduced on page 58 of \"Then &amp; now photographic book: a 1992 Ryde Bicentenary publication\", published by the Ryde Bicentenary Mementoes Task Force in 1992.Photograph was reproduced on p.41 of George Redding's \"A History of North Ryde 1850-1950\", published in 1986 by the North Ryde Public School Ex-Pupils History Group.photonegative : Sydney, Ryde Library &amp; Information Services, 1992.</p><p></p><p>This photo demonstrates the type of bridge building technology. It also shows a need needs access across the river for horse and cart transport for people and goods.</p><p></p><p><strong>What is the context of the image?) When and where was the image taken? (how can you tell)</strong> </p><p>This image was taken in 1901 by a photographer for the Sydney Mail. The bushland setting and the Lane Cove River.</p><p></p><p><strong>Are there details that suggest the time period this images relates to? (people, objects, activities, words, signs)</strong>&nbsp;</p><p>The style of clothing of participants, the style of transport.</p><p></p><p><strong>Why was the photo taken? What was its purpose?</strong></p><p>The photo was taken to recrod what was considered an important event to be reported in an Austrlain magazine publised weekly in Sydney. It was the weekly edition of The Sydney Morning Herald newspaper and ran from 1860 to 1938 .</p><p></p><p><strong>What objects or physical features are in the image? (I see ) (Central focal item) How do they relate to each other? (main subject, minor subjects, explain image composition)</strong></p><p>The photgrapher has tied to capture the broad sweep of the bridge with participants of the opening in the middle ground and a carrigae in the foreground (possible ready to cross the bridge when it was opened).</p><p></p><p><strong>What was happening during the time period this image represents?</strong></p><p>Construction of the bridge began in 1899. Until then horse drawn vehicles had to cross the river over a ford of the Lane Cove River. It was designed for horse drawn traffic but carried cars and heavy trucks until 1967 when a new six lane concrete bridge was built nearby. The bridge was opened by Mr EW O’Sullivan by cutting a ribbon&nbsp;‘with a handsome pair of scissors’ (Sydney Mail, p. 530). It was designed and erected by officilas at the Bridges Branch of the Public Works Department from composite steel and ironbark timber and was considered revolutionary in its time (Marting, p. 46). It provided an important link for the route from Sydeny to Pittwater and Broken Bay via Gladesville and Pymble.</p><p></p><p><strong>What meaning do you think the photographer was aiming to convey?</strong></p><p>The photographer was trying to capture as much of the scene as possible to illustrate for the readers of the magazine. It was an important event to warrant the notice of a Sydney magazine.</p><p></p><p>(What insights does this image provide on the past that we would not have without it?)</p><p></p><p><strong>What insights does this image provide about the past that we might not learn anywhere else?</strong></p><p>The bridge was destroyed in a bush fire so this image provides a represenation of a structure that no longer exists.&nbsp;</p><p></p><p><strong>What questions does this image raise about the past?</strong></p><p>What technology was available at this time. What difference did this bridge make in the lives of everyday people. What major impact tdid this bridge make for the development of suburbs like North Ryde.</p>",
+                "@language": "en"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@type": "Item",
+      "template": "https://tropy.org/v1/templates/dc",
+      "type": "Photograph",
+      "subject": "Opening ceremony at North Ryde School of Arts",
+      "date": "1901",
+      "identifier": "BRN: 63143",
+      "source": "City Of Ryde Local Studies Collection https://ryde.spydus.com/cgi-bin/spydus.exe/ENQ/WPAC/BIBENQ?SETLVL=&BRN=63143",
+      "title": "Opening of the School of Arts, North Ryde",
+      "creator": "unknown",
+      "rights": "This image is provided for research purposes only and must not be reproduced for other purposes without prior permission of the library.",
+      "tag": [
+        "1900-1909",
+        "north ryde",
+        "school of arts"
+      ],
+      "photo": [
+        {
+          "@type": "Photo",
+          "checksum": "d6db70b538196cb0908ffd754b9e7996",
+          "color": "rgb(200,200,200,1)",
+          "density": null,
+          "filename": "1901_opening_school_of_arts.jpg",
+          "mimetype": "image/jpeg",
+          "orientation": 1,
+          "page": 0,
+          "path": "/Users/robynarmstrong/Library/CloudStorage/OneDrive-Personal/HINQ302/Assessment 3/images/1901_opening_school_of_arts.jpg",
+          "protocol": "file",
+          "size": 49615,
+          "template": "https://tropy.org/v1/templates/photo",
+          "angle": 0,
+          "brightness": 0,
+          "contrast": 0,
+          "height": 285,
+          "hue": 0,
+          "mirror": false,
+          "negative": false,
+          "saturation": 0,
+          "sharpen": 0,
+          "width": 282,
+          "title": "1901_opening_school_of_arts",
+          "date": "2023-05-03T08:05:27.504Z",
+          "note": [
+            {
+              "@type": "Note",
+              "text": {
+                "@value": "Photograph was published on p. 38 ‘Town and Country Journal’, 7 September 1901. The photo shows a grand building that indicates the importance of cultural activiies in the community. The large group at the opening confirms this importance. What is the context of the image?) When and where was the image taken? (how can you tell)  This image was taken in 1901 at the opening of the North Ryde School of Arts. It was the first purpose built school of arts in the Ryde District. It included a hall, stage for public entertainment and large meetings, a reading room and library, some smaller meeting rooms, an art gallery and a billiards room (Martin, p. 48). The foundation stone was laid in April 1901 by Mr E. Terry member for the electorate and was funded by provate subscription and was matched £ for £ by the Government (SMH April 1901, p. 8). It was opened on 2 September 1901 by Mr Farnell MLA who noted the sacrifices by those responsible for the benefit to the community. The opening was followed by a banquet attened by 400 people with music and dancing until 4:40 am (SMH 2 Sep 1901, p. 9). The building was demolished in 1980 and replaced with a library and community rooms. Are there details that suggest the time period this images relates to? (people, objects, activities, words, signs)  Style of clothing, the flags Why was the photo taken? What was its purpose? The photo was taken to record the opeing of the School of Arts. What objects or physical features are in the image? (I see ) (Central focal item) How do they relate to each other? (main subject, minor subjects, explain image composition) The main focus of the photo is the School of Arts building.  What was happening during the time period this image represents? 1901 was the year of Federation of Australia on 1 January. 31 March was a national census that excluded Indigenous Australians. The Flag of Australia and Australian Red Ensign were adopted as officila flags following a design compeition. The Immigation Resriction Act 1901 comes into force, insituting the White Australia Policy. What meaning do you think the photographer was aiming to convey? The importance of the event. (What insights does this image provide on the past that we would not have without it?) What insights does this image provide about the past that we might not learn anywhere else? the importance of culture to the community the engagement of the community with its cultural development What questions does this image raise about the past?",
+                "@language": "en"
+              },
+              "html": {
+                "@value": "<p>Photograph was published on p. 38 ‘Town and Country Journal’, 7 September 1901.</p><p></p><p>The photo shows a grand building that indicates the importance of cultural activiies in the community. The large group at the opening confirms this importance.</p><p></p><p><strong>What is the context of the image?) When and where was the image taken? (how can you tell)</strong> </p><p>This image was taken in 1901 at the opening of the North Ryde School of Arts. It was the first purpose built school of arts in the Ryde District. It included a hall, stage for public entertainment and large meetings, a reading room and library, some smaller meeting rooms, an art gallery and a billiards room (Martin, p. 48). The foundation stone was laid in April 1901 by Mr E. Terry member for the electorate and was funded by provate subscription and was matched&nbsp;£ for&nbsp;£ by the Government (SMH April 1901, p. 8). It was opened on 2 September 1901 by Mr Farnell MLA who noted the sacrifices by those responsible for the benefit to the community. The opening was followed by a banquet attened by 400 people with music and dancing until 4:40 am (SMH 2 Sep 1901, p. 9). The building was demolished in 1980 and replaced with a library and community rooms.</p><p></p><p><strong>Are there details that suggest the time period this images relates to? (people, objects, activities, words, signs)&nbsp;</strong></p><p>Style of clothing, the flags</p><p></p><p><strong>Why was the photo taken? What was its purpose?</strong></p><p>The photo was taken to record the opeing of the School of Arts.</p><p></p><p><strong>What objects or physical features are in the image? (I see ) (Central focal item) How do they relate to each other? (main subject, minor subjects, explain image composition)</strong></p><p>The main focus of the photo is the School of Arts building.&nbsp;</p><p></p><p><strong>What was happening during the time period this image represents?</strong></p><p>1901 was the year of Federation of Australia on 1 January. 31 March was a national census that excluded Indigenous Australians. The Flag of Australia and Australian Red Ensign were adopted as officila flags following a design compeition. The Immigation Resriction Act 1901 comes into force, insituting the White Australia Policy.</p><p></p><p><strong>What meaning do you think the photographer was aiming to convey?</strong></p><p>The importance of the event.</p><p></p><p>(What insights does this image provide on the past that we would not have without it?)</p><p></p><p>What insights does this image provide about the past that we might not learn anywhere else?</p><p>the importance of culture to the community</p><p>the engagement of the community with its cultural development</p><p>What questions does this image raise about the past?</p>",
+                "@language": "en"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@type": "Item",
+      "template": "https://tropy.org/v1/templates/dc",
+      "title": "War Service Homes, North Ryde",
+      "date": "1960",
+      "description": "TITLE: Government - Veteran Affairs - War Service Homes - Dwelling houses, street view North Ryde group CATEGORY: photograph PRINCIPAL CREDIT: Australian News & Information Bureau FORMAT: b&w negative TYPE: cellulose acetate STATUS: preservation material",
+      "source": "https://recordsearch.naa.gov.au/scripts/AutoSearch.asp?O=PSI&Number=9759837",
+      "type": "Photograph",
+      "identifier": "9759837",
+      "creator": "Australian News and Information Bureau",
+      "tag": [
+        "1960-1969",
+        "north ryde",
+        "war service homes"
+      ],
+      "photo": [
+        {
+          "@type": "Photo",
+          "checksum": "62eddbe7eaaac2d842044b7471ed3421",
+          "color": "rgb(168,168,168,1)",
+          "density": null,
+          "filename": "1960_war_service_home.png",
+          "mimetype": "image/jpeg",
+          "orientation": 1,
+          "page": 0,
+          "path": "/Users/robynarmstrong/Library/CloudStorage/OneDrive-Personal/HINQ302/Assessment 3/images/1960_war_service_home.png",
+          "protocol": "file",
+          "size": 33680,
+          "template": "https://tropy.org/v1/templates/photo",
+          "angle": 0,
+          "brightness": 0,
+          "contrast": 0,
+          "height": 337,
+          "hue": 0,
+          "mirror": false,
+          "negative": false,
+          "saturation": 0,
+          "sharpen": 0,
+          "width": 425,
+          "title": "1960_war_service_home",
+          "date": "2023-05-03T08:05:29.837Z",
+          "note": [
+            {
+              "@type": "Note",
+              "text": {
+                "@value": "This phot shows the extent of the building of homes after World War 2. There is no evidence of brick construction with the shortage of building materials. The houses are all tidy with well kept lawns and gardens. The power pole indicates they are serviced with electricity. During the postwar years the character of the district underwent a major change, from rural to suburban residential. The former army vehicle park was subdivided into lots for war service housing, and the New South Wales Housing Commission resumed a substantial quantity of land within the district, subdividing it for housing. Many streets in these subdivisions were named to reflect the area's connection with war service, as many of the earlier streets in the Field of Mars were named for the great English battles. The orchards on the northern side of the suburb were retained from subdivision as a green belt under the County of Cumberland planning scheme, but the growing need for more land for residential, commercial and industrial uses across Sydney was becoming urgent. By 1965 the release of land in North Ryde for industrial purposes began to take place, and by 1968 a large tract was set aside for the establishment of Sydney's third university, Macquarie University.",
+                "@language": "en"
+              },
+              "html": {
+                "@value": "<p>This phot shows the extent of the building of homes after World War 2. There is no evidence of brick construction with the shortage of building materials. The houses are all tidy with well kept lawns and gardens. The power pole indicates they are serviced with electricity.</p><p></p><p>During the postwar years the character of the district underwent a major change, from rural to suburban residential. The former army vehicle park was subdivided into lots for war service housing, and the <a href=\"https://dictionaryofsydney.org/organisation/housing_commission_of_new_south_wales\">New South Wales Housing Commission</a> resumed a substantial quantity of land within the district, subdividing it for housing. Many streets in these subdivisions were named to reflect the area's connection with war service, as many of the earlier streets in the Field of Mars were named for the great English battles.</p><p>The orchards on the northern side of the suburb were retained from subdivision as a green belt under the <a href=\"https://dictionaryofsydney.org/organisation/county_of_cumberland_planning_scheme\">County of Cumberland planning scheme,</a> but the growing need for more land for residential, commercial and industrial uses across Sydney was becoming urgent. By 1965 the release of land in North Ryde for industrial purposes began to take place, and by 1968 a large tract was set aside for the establishment of Sydney's third university, <a href=\"https://dictionaryofsydney.org/organisation/macquarie_university\">Macquarie University.</a></p>",
+                "@language": "en"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "version": "1.13.1"
+}
